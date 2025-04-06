@@ -1,0 +1,40 @@
+
+Hello!
+
+This is a simple project to run locally on your computer. Follow these easy steps to get it working:
+
+1. **Install Python**:
+   - Download and install Python from the official website: https://www.python.org/downloads/
+   - When installing, make sure to check the option that says "Add Python to PATH."
+
+2. **Install Necessary Libraries**:
+   - After Python is installed, you'll need to install a few Python libraries to run the project.
+   - Open the "Command Prompt" (Windows) or "Terminal" (Mac) on your computer.
+   - navigate to the project folder
+   - Run the following command to install the required libraries:
+
+     ```
+     pip install streamlit pandas matplotlib reportlab
+     ```
+   - Type the following command and press **Enter**:
+
+     ```
+     streamlit run main.py
+     ```
+
+   - This will open the project in your default web browser. The app will run, and you can interact with it to view and analyze the data.
+
+5. **Uploading Your CSV Data**:
+   - When you open the app in your browser, you will see an option to upload your CSV file (this is the data file).
+   - Simply click the **"Choose a CSV file"** button and select the CSV file that you want to use.
+
+6. **Exploring the App**:
+   - The app allows you to:
+     - See a preview of the data.
+     - Generate invoices in PDF format for selected orders.
+     - View sales and profit by region or city.
+   - You can interact with the app to explore different options.
+
+That's it! Now you can use the app on your computer.
+
+If you have any issues or need help, feel free to ask!
